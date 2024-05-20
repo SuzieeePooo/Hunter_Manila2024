@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Background/gradient-bg.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image */
+    font-family: Arial, sans-serif;
+    color: rgb(254, 250, 250);
+}
+.header{
+    background-color: rgb(52, 26, 26);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+} 
+.header h2{
+    color: #ffffff;
+    margin-top: 29px;
+    padding-top: 10;
+    padding-left: 10px;
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:
+    0 1px 0px #000000,
+    1px 0 0px #1a2124,
+    1px 2px 1px #74838a,
+    2px 1px 1px #5dabcd,
+    2px 3px 2px #000000,
+    3px 2px 2px #353c3e,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #000000,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #141a1c,
+    5px 6px 2px #0f212b,
+    6px 5px 2px #233b45,
+    6px 7px 1px #131a1e,
+    7px 6px 1px #817272,
+    7px 8px 0px #645659,
+    8px 7px 0px #000000;
+}
+.header img{
+    margin-left: 70px;
+    
+}
+
+/*-------NAV BUTTON-------*/
+.navlist{
+    margin-top: 22px;
+    display: flex;
+    margin-left: 400px;
+    margin-right: 80x;
+    
+
+}
+.navlist a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 0px 7px rgba(107, 105, 99, 0.8), -3px 0px 7px rgba(81,67,21,0.8), 0px 4px 7px rgba(81,67,21,0.8);
+}
+.navbutton:hover{
+    box-shadow: 0 0 20px;
+    animation: both;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container .header2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: rgb(1, 1, 1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.cart {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cart h2 {
+    margin-top: 0;
+}
+
+.cart ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+#buy-btn {
+    background-color: #28a745;
+}
+
+#buy-btn:hover {
+    background-color: #218838;
+}
+
+/* Style for back button link */
+.back-link {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+}
+
+.back-link:hover {
+    background-color: #0056b3;
+}
+.receipt-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* Ensure the receipt container is above other elements */
+}
+
+.receipt {
+    text-align: center;
+    color: #000000;
+}
+
+.receipt h2 {
+    margin-bottom: 10px;
+}
+
+.receipt-items {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.receipt-items li {
+    margin-bottom: 5px;
+}
+
+#total-receipt {
+    font-weight: bold;
+}
+footer{
+    padding: 30px;
+}
+.footer-container{
+    background-image: url(Background/marble_bg3.jpg);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+.footer-container ul{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer-container ul li a{
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+.footer-container h3{
+    font-family: 'Russo One', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer-content{
+    margin-left: 100px;
+}
+.logo{
+    height: 110px;
+    width: 170px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.icon{
+    padding-right: 20px;
+    height: 19px;
+}
+.last{
+    padding-top: 17px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+.last p{
+    color: rgb(255, 255, 255);
+    padding-right: 50px;
+}
+.last span{
+    color: rgb(255, 255, 255);
+}
+li{
+    font-family: "Outfit", sans-serif;
+}

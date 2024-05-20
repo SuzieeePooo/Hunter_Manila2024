@@ -1,0 +1,357 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+body{
+    background-color: white;
+}
+/*--------------------------HEADER---------------------------*/
+.header{
+    background-color: rgb(52, 26, 26);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+} 
+.header h2{
+    color: #ffffff;
+    margin-top: 29px;
+    padding-top: 10;
+    padding-left: 10px;
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:
+    0 1px 0px #000000,
+    1px 0 0px #1a2124,
+    1px 2px 1px #74838a,
+    2px 1px 1px #5dabcd,
+    2px 3px 2px #000000,
+    3px 2px 2px #353c3e,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #000000,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #141a1c,
+    5px 6px 2px #0f212b,
+    6px 5px 2px #233b45,
+    6px 7px 1px #131a1e,
+    7px 6px 1px #817272,
+    7px 8px 0px #645659,
+    8px 7px 0px #000000;
+}
+.header img{
+    margin-left: 70px;
+    
+}
+
+/*-------NAV BUTTON-------*/
+.navlist{
+    margin-top: 22px;
+    display: flex;
+    margin-left: 400px;
+    margin-right: 80x;
+    
+
+}
+.navlist a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 0px 7px rgba(107, 105, 99, 0.8), -3px 0px 7px rgba(81,67,21,0.8), 0px 4px 7px rgba(81,67,21,0.8);
+}
+.navbutton:hover{
+    box-shadow: 0 0 20px;
+    animation: both;
+}
+/*--------------------------ADD TO CART BUTTON---------------------------*/
+.header_icons a {
+    font-size: 35px;
+    padding-left: 45px;
+}
+
+
+/*--------------------------TAG LINE---------------------------*/
+.tagline-container{
+    background-image: url(Background/Concrete.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.TAGLINE h1{
+
+    font-weight: 600;
+    font-size: 120px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 400%;
+    animation: move 5s ease infinite;
+    background-image: linear-gradient( 68.7deg,  rgb(124, 15, 15) 14.2%, rgb(5, 16, 110) 29.8%, rgb(8, 102, 77) 48.9%, rgb(206, 20, 79) 68.2%, rgb(179, 57, 12) 86.4% );
+}
+@keyframes move {
+    0%,100%{
+        background-position: 200% 0%;
+    }
+
+    50%{
+        background-position: 0% 200%;
+    }
+}
+.happy{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 150px;
+    padding-left: 290px;
+    margin-bottom: 0px;
+}
+.hunting{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 200px;
+}
+.all-clothes{
+    padding-right: 100px;
+}
+/*--------------------------FEATURED---------------------------*/
+.container-featured-img{
+    justify-content: center;
+    text-align: center;
+    border-top: 12px solid rgb(78, 35, 35);
+    border-bottom: 12px solid rgb(78, 35, 35);
+    background-image: url(Background/marble_bg2.jpg);
+    margin-top: 0;
+    padding-bottom: 100px;
+    
+}
+.featured-row{
+    justify-content: center;
+    display: flex;
+}
+.featured{
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: transform 0.20s ease;
+}
+.featured:hover {
+    transform: scale(1.1);
+}
+.featured h2{
+    color: rgb(0, 0, 0);
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container-featured-img p{
+    padding-top: 50px;
+    color: rgba(0, 0, 0, 0.895);
+    font-size: 90px;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 2px 3px #747474, 
+      1px 3px 4px #fff3f3, 
+      0 8px 3px #1f1a1a, 
+      0 11px 4px #463a3a,
+      0 14px 4px #a29898,
+      0 17px 4px #343434,
+      0 20px 4px #171717;
+
+}
+.featured img{
+    height: 400px;
+    border: 5px solid rgb(6, 6, 6);
+}
+/*--------------------------ALL PRODUCTS---------------------------*/
+.Parent{
+    background-image: url(Background/gradient-bg.jpg);
+    background-size: cover;
+    color: white;
+    padding-bottom: 50px;
+}
+.container{
+    justify-content: center ;
+    text-align: center;
+
+}
+.container p{
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 2px 3px #747474, 
+      1px 3px 4px #222, 
+      0 8px 3px #534e4e, 
+      0 11px 4px #747474,
+      0 14px 4px #565656,
+      0 17px 4px #343434,
+      0 20px 4px #171717;
+
+}
+.product{
+    padding-left: 35x;
+    padding-right: 35px;
+    overflow: hidden;
+    transition: transform 0.20s ease;
+}
+.product:hover {
+    transform: scale(1.1);
+}
+.product img{
+    height: 320px;
+    justify-content: space-between;
+    border-top: 5px solid rgb(212, 198, 170);
+    border-left: 5px solid rgb(212, 198, 170);
+    border-right: 5px solid rgb(212, 198, 170);
+    border-bottom: 5px solid rgb(212, 198, 170);
+    
+}
+.product h5{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 5px solid rgb(212, 198, 170);
+    border-left: 5px solid rgb(212, 198, 170);
+    border-right: 5px solid rgb(212, 198, 170);
+    border-bottom: 5px solid rgb(212, 198, 170);
+    margin-top: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: white;
+    color: black;
+    flex-wrap: wrap;
+}
+
+
+.Category{
+    padding-top: 50px;
+    
+}
+.Category p{
+    padding-bottom: 20px;
+    font-size: 23px;
+    text-align: center;
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+/*-----------------------shop now button-------------------------------*/
+.Shop{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 85px;
+}
+.btn{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 20px rgb(248, 247, 247);
+}
+
+
+/*--------------------------PRODUCT CONTAINER 1---------------------------*/
+.product-container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+/*--------------------------PRODUCT CONTAINER 2---------------------------*/
+.product-container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+/*--------------------------PRODUCT CONTAINER 3---------------------------*/
+.product-container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/*-------------FOOTER------------*/
+footer{
+    padding: 30px;
+}
+.footer-container{
+    background-image: url(Background/marble_bg3.jpg);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+.footer-container ul{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer-container ul li a{
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+.footer-container h3{
+    font-family: 'Russo One', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer-content{
+    margin-left: 100px;
+}
+.logo{
+    height: 110px;
+    width: 170px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.icon{
+    padding-right: 20px;
+    height: 19px;
+}
+.last{
+    padding-top: 17px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+.last p{
+    color: rgb(255, 255, 255);
+    padding-right: 50px;
+}
+.last span{
+    color: rgb(255, 255, 255);
+}
+li{
+    font-family: "Outfit", sans-serif;
+}

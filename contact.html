@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HUNTER MANILA</title>
+    <link rel="stylesheet" href="homepage.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Wendy+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Days+One&family=Outfit:wght@100..900&family=Salsa&display=swap');
+
+        body {
+            
+            /* Specify other background properties as needed */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Set default text color to black */
+            
+        }
+
+        .contact-section {
+            font-family: 'Anton', sans-serif; /* Set font family */
+            padding-top: 100px;
+            padding-bottom: 50px;
+            background-image: url('background/marble_bg2.jpg');
+            text-align: center;
+
+            animation: fadeInUp 1s ease; /* Apply animation */
+        }
+
+        .contact-section h2 {
+            font-size: 3em; /* Larger font size */
+            margin-bottom: 30px; /* Increased margin */
+        }
+
+        .contact-details {
+            font-size: 2em; /* Larger font size */
+            text-align: center;
+            margin-bottom: 30px; /* Increased margin */
+            line-height: 1.5; /* Increased line height for better readability */
+        }
+
+        .location-icon {
+            width: 30px; /* Decreased icon size */
+            height: auto;
+            vertical-align: middle;
+            margin-right: 16px; /* Increased margin */
+        }
+
+        .address {
+            display: flex;
+            align-items: center; /* Align items vertically */
+            justify-content: center;
+            margin-bottom: 30px; /* Increased margin */
+        }
+
+        .phone-icon {
+            width: 30px; /* Decreased icon size */
+            height: auto;
+            vertical-align: middle;
+            margin-right: 9px; /* Increased margin */
+        }
+
+        .email-icon {
+            width: 25px; /* Decreased icon size */
+            height: auto;
+            vertical-align: middle;
+            margin-right: 10px; /* Adjusted margin */
+        }
+
+        /* Remove underline from links */
+        .contact-details a {
+            text-decoration: none;
+            color: black; /* Set link color to black */
+        }
+        
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .last{
+            padding-top: 17px;
+            background-color: black;
+            justify-content: center;
+            display: flex;
+            text-align: center;
+            font-size: 20px;
+        }
+        .last p{
+            color: rgb(255, 255, 255);
+            padding-right: 50px;
+        }
+        .last span{
+            color: rgb(255, 255, 255);
+        }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="header">
+        <img src="Other Pictures/Logo.png" height="100px">
+        <h2>HUNTER MANILA</h2>
+        <ul type="none" class="navlist">
+            <li><a href="index.html" style="--clr:#fffa48" class="navbutton">HOME</a></li>
+            <li><a href="products.html" style="--clr:#fffa48" class="navbutton">PRODUCTS</a></li>
+            <li><a href="about.html" style="--clr:#fffa48" class="navbutton">ABOUT</a></li>
+            <li><a href="contact.html" style="--clr:#fffa48" class="navbutton">CONTACT US</a></li>
+        </ul>
+        
+    </div>
+
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p class="contact-details">If you have any questions or inquiries, feel free to reach out to us using the information below:</p>
+        <div class="contact-details">
+            <div class="address">
+                <img src="Other Pictures/loc.png" alt="Location Icon" class="location-icon">
+                <a href="https://www.google.com/maps/search/Woodsville+Viverde+Mansion,+Para%C3%B1aque+City+google+maps/@14.4998844,121.0349346,17z/data=!3m1!4b1?entry=ttu" style="text-decoration: none; color: black;">Woodsville Viverde Mansion, Parañaque City</a>
+            </div>
+            <p>
+                <img src="Other Pictures/phone-call.png" alt="Phone Icon" class="phone-icon">
+                (+63) 9602820624
+            </p>
+            <p> 
+                <img src="Other Pictures/gmail.png" alt="Gmail Icon" class="email-icon">
+                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" style="text-decoration: none; color: black;">hunter.mnla28@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <!-----FOOTER----->
+    <div class="last">
+        <span class="material-symbols-outlined">
+            copyright 
+        </span>
+        <p>2024, Hunter Manila.</p>
+    </div>
+</body>
+</html>
